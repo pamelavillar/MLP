@@ -39,14 +39,20 @@ La versión CUDA utiliza la GPU para acelerar los cálculos del MLP.
 ### 3. Descargar dataset CIFAR-10
 
 !wget https://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz
+
 !tar -xzf cifar-10-binary.tar.gz
+
 !ls cifar-10-batches-bin/
+
 
 
 ### 4. Crear archivos cuda
 %%writefile mlp_cuda.cu
+
 // aquí el contenido de mlp.cu
+
 %%writefile main.cu
+
 // aquí el contenido de main.cu
 
 ### 5. Compilar usando NVCC
