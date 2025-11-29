@@ -1,3 +1,6 @@
+# Integrantes 
+- Pamela Villar Ticona
+- Rodrigo Silva Murillo
 # Implementaciones de MLP en Threads y CUDA
 
 Este repositorio contiene dos implementaciones de un Perceptrón Multicapa (MLP): una basada en threads (CPU) y otra acelerada mediante CUDA (GPU). Ambas permiten comparar rendimiento y estructura interna del modelo.
